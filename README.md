@@ -1,10 +1,20 @@
-project-genai-post-generator
-Generate LinkedIn posts that match your writing style using GenAI
-This tool helps LinkedIn influencers analyze their past posts and generate new ones that sound just like them.
+### project-genai-post-generator
+## An AI-powered tool to generate LinkedIn posts in your personal writing style.
 
-What It Does
-Let’s say Mohan is a LinkedIn influencer who wants help writing future posts. He can upload his past posts to this tool, and it will:
+This project helps LinkedIn influencers generate new posts that are consistent with their past writing. By analyzing previous posts for tone, topic, and length, the tool uses GenAI to draft new content that matches the influencer’s voice.
 
-Analyze and extract key attributes (e.g., topic, language, length).
+Features
+** Analyze past LinkedIn posts to extract:
 
-Use those attributes to generate new posts using GenAI that align with his unique voice and style.
+* Topic
+
+* Language
+
+* Length
+
+** Select desired post attributes (topic, language, length) for generation
+
+** Generate new posts using few-shot learning to reflect original writing style
+
+** Simple and interactive Streamlit UI
+
